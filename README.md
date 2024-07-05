@@ -1,8 +1,34 @@
-# React + Vite
+# AluraFlix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web construida con React y Vite, que utiliza Tailwind CSS para el estilo y JSON Server para simular una API RESTful.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu máquina.
+
+## Instalación
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+   ```
+
+2. Clona este repositorio:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia JSON Server:
+
+   ```bash
+   npx json-server --watch db.json --port 5000
+   ```
+
+4. Ejecución de proyecto
+
+   ```bash
+   npm run dev
+   ```
